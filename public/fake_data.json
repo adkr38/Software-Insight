@@ -1,0 +1,111 @@
+{
+  "python": {
+    "Monday": 12322,
+    "Tuesday": 7922,
+    "Wednesday": 9900,
+    "Thursday": 15552,
+    "Friday": 10102,
+    "Saturday": 22302,
+    "Sunday": 5620
+  },
+
+  "java": {
+    "Monday": 8220,
+    "Tuesday": 9112,
+    "Wednesday": 1302,
+    "Thursday": 5621,
+    "Friday": 9966,
+    "Saturday": 13302,
+    "Sunday": 4506
+  },
+
+  "javascript": {
+    "Monday": 13335,
+    "Tuesday": 6221,
+    "Wednesday": 2202,
+    "Thursday": 4502,
+    "Friday": 11114,
+    "Saturday": 13773,
+    "Sunday": 5202
+  },
+
+  "c++": {
+    "Monday": 3607,
+    "Tuesday": 5200,
+    "Wednesday": 2350,
+    "Thursday": 3505,
+    "Friday": 4628,
+    "Saturday": 5001,
+    "Sunday": 3202
+  },
+
+  "typescript": {
+    "Monday": 8002,
+    "Tuesday": 5017,
+    "Wednesday": 5555,
+    "Thursday": 7502,
+    "Friday": 5502,
+    "Saturday": 6301,
+    "Sunday": 2223
+  },
+
+  "php": {
+    "Monday": 4202,
+    "Tuesday": 1199,
+    "Wednesday": 2999,
+    "Thursday": 3302,
+    "Friday": 3792,
+    "Saturday": 7302,
+    "Sunday": 6072
+  },
+
+  "go": {
+    "Monday": 9032,
+    "Tuesday": 9115,
+    "Wednesday": 8302,
+    "Thursday": 10011,
+    "Friday": 9305,
+    "Saturday": 9732,
+    "Sunday": 6002
+  },
+
+  "c": {
+    "Monday": 2001,
+    "Tuesday": 2015,
+    "Wednesday": 3032,
+    "Thursday": 3589,
+    "Friday": 6222,
+    "Saturday": 6902,
+    "Sunday": 3322
+  },
+
+  "ruby": {
+    "Monday": 7022,
+    "Tuesday": 4002,
+    "Wednesday": 1777,
+    "Thursday": 2849,
+    "Friday": 3005,
+    "Saturday": 3699,
+    "Sunday": 2000
+  },
+
+  "c#": {
+    "Monday": 3022,
+    "Tuesday": 1995,
+    "Wednesday": 3892,
+    "Thursday": 4001,
+    "Friday": 4850,
+    "Saturday": 4011,
+    "Sunday": 302
+  },
+
+  "rust": {
+    "Monday": 1932,
+    "Tuesday": 2507,
+    "Wednesday": 2492,
+    "Thursday": 1087,
+    "Friday": 1992,
+    "Saturday": 3903,
+    "Sunday": 506
+  }
+}
