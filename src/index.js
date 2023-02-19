@@ -33,9 +33,9 @@ class App extends React.Component {
         <div className={theme === "light" ? lightBg : darkBg}>
           <div className="min-w-screen h-full">
             {/* <Analytics /> */}
-            <Analytics />
             {/* <Trending />*/}
             {/*<Home />*/}
+            <Home />
             {/* <Versus /> */}
           </div>
         </div>
