@@ -26,9 +26,9 @@ class App extends React.Component {
   }
   render() {
     const lightBg =
-      "min-w-screen h-screen px-5 py-3 clear-both bg-gradient-to-br bg-cover from-sky-100 to-purple-100 sm:bg-gradient-to-br sm:from-purple-50 sm:via-sky-100 sm:to-purple-100";
+      "min-w-screen h-screen px-5 py-3 clear-both bg-gradient-to-br bg-cover from-sky-100 to-purple-100 sm:bg-gradient-to-br sm:from-purple-50 sm:via-sky-100 sm:to-purple-100 overflow-auto";
     const darkBg =
-      "min-w-screen h-screen clear-both px-5 py-3 bg-gradient-to-tr from-[rgba(0,0,0,0.95)_80%] via-slate-800 to-rose-800 bg-cover";
+      "min-w-screen h-screen clear-both px-5 py-3 bg-gradient-to-tr from-[rgba(0,0,0,0.95)_80%] via-slate-800 to-rose-800 bg-cover overflow-auto";
     const { theme } = this.state;
     return (
       <ThemeProvider value={this.state}>
