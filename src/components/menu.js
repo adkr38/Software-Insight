@@ -1,5 +1,6 @@
 import React from "react";
 import { ThemeConsumer } from "../context/theme.js";
+import { Link } from "react-router-dom";
 import * as bs from "react-icons/bs";
 import * as cg from "react-icons/cg";
 import * as gi from "react-icons/gi";
@@ -43,7 +44,7 @@ export default class Menu extends React.Component {
         <ThemeConsumer>
           {({ theme }) => (
             <button
-              className="absolute top-4 left-4"
+              className="z-10 absolute top-4 left-4"
               onClick={() => this.toggleMenu()}
             >
               <cg.CgMenu
@@ -65,9 +66,11 @@ export default class Menu extends React.Component {
               ></bs.BsXDiamond>
             </button>
             <div className={theme === "light" ? iconRowLight : iconRowDark}>
-              <bs.BsHouseFill
-                className={theme === "light" ? iconStyleLight : iconStyleDark}
-              ></bs.BsHouseFill>
+              <Link to="/">
+                <bs.BsHouseFill
+                  className={theme === "light" ? iconStyleLight : iconStyleDark}
+                ></bs.BsHouseFill>
+              </Link>
               <p className={theme === "light" ? textStyleLight : textStyleDark}>
                 Home
               </p>
@@ -103,11 +106,11 @@ export default class Menu extends React.Component {
             </div>
 
             <div className={theme === "light" ? iconRowLight : iconRowDark}>
-              <a href="https://github.com/adkr38" target="_blank">
+              <Link to="/versus">
                 <gi.GiSwordSpin
                   className={theme === "light" ? iconStyleLight : iconStyleDark}
                 ></gi.GiSwordSpin>
-              </a>
+              </Link>
 
               <p className={theme === "light" ? textStyleLight : textStyleDark}>
                 Github Versus
@@ -115,11 +118,11 @@ export default class Menu extends React.Component {
             </div>
 
             <div className={theme === "light" ? iconRowLight : iconRowDark}>
-              <a href="https://github.com/adkr38" target="_blank">
+              <Link to="/analytics">
                 <im.ImStatsBars
                   className={theme === "light" ? iconStyleLight : iconStyleDark}
                 ></im.ImStatsBars>
-              </a>
+              </Link>
 
               <p className={theme === "light" ? textStyleLight : textStyleDark}>
                 Language Stats
@@ -127,11 +130,11 @@ export default class Menu extends React.Component {
             </div>
 
             <div className={theme === "light" ? iconRowLight : iconRowDark}>
-              <a href="https://github.com/adkr38" target="_blank">
+              <Link to="/trending">
                 <cg.CgTrending
                   className={theme === "light" ? iconStyleLight : iconStyleDark}
                 ></cg.CgTrending>
-              </a>
+              </Link>
 
               <p className={theme === "light" ? textStyleLight : textStyleDark}>
                 Popular Repositories
