@@ -47,7 +47,7 @@ function LangGrid({ callback }) {
   return (
     <ThemeConsumer>
       {({ theme }) => (
-        <div className="mainDashboard flex items-center flex-col animate-fadeIn">
+        <div className="mainDashboard flex items-center flex-col animate-fadeIn overflow-auto">
           <div className="flex justify-center mt-24 md:mt-40 2xl:mt-48">
             <h3 className={theme === "light" ? h3Light : h3Dark}>
               Start{" "}
