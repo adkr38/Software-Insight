@@ -2,6 +2,7 @@ import React from "react";
 import { ThemeConsumer } from "../context/theme.js";
 import * as md from "react-icons/md";
 import * as ai from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -41,9 +42,11 @@ class GetStarted extends React.Component {
                 for free.
               </span>
             </p>
-            <button className={theme === "light" ? lightButton : darkButton}>
-              Get Started
-            </button>
+            <Link to="/trending">
+              <button className={theme === "light" ? lightButton : darkButton}>
+                Get Started
+              </button>
+            </Link>
           </div>
         )}
       </ThemeConsumer>

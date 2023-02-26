@@ -38,7 +38,7 @@ function LangGrid({ callback }) {
   const dashboard =
     "grid gap-6  w-3/4 mt-24  m-auto grid-cols-2 md:grid-cols-5 2xl:grid-cols-10 transition-all duration-700";
   const languageBoxLight =
-    "flex justify-center  p-5 rounded-xl  bg-gradient-to-br from-transparent to-slate-300 shadow-md hover:shadow-lg transition-all ease-in-out duration-300 active:shadow-inner active:scale-95";
+    "flex justify-center  p-5 rounded-xl  bg-repeat bg-gradient-to-br from-transparent to-slate-300 shadow-md hover:shadow-lg transition-all ease-in-out duration-300 active:shadow-inner active:scale-95";
   const languageBoxDark =
     "flex justify-center  ring ring-slate-900/10 p-5 rounded-xl  bg-gradient-to-br from-slate-400 shadow-md shadow-slate-600/50 hover:shadow-lg transition-all ease-in-out duration-300 active:shadow-slate-600 active:shadow-inner active:scale-95";
   const h3Light = "font-raleway text-bold absolute text-xl";
@@ -117,7 +117,7 @@ function LoadingScreen() {
 
 function RepoGrid(props) {
   const repos =
-    "repositories absolute mx-auto left-0 right-0 w-3/4 h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-x-5 md:gap-x-10 gap-y-10 p-3 items-center";
+    "repositories absolute mx-auto left-0 right-0 w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-x-5 md:gap-x-10 gap-y-10 p-20 items-center overflow-y-auto";
   const lightRepoBox =
     "text-center shadow-sm shadow-slate-300 py-4 px-0 rounded-xl grid gap-y-2 gap-x-6 grid-flow-row items-center break-words align-baseline";
   const darkRepoBox =
