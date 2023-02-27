@@ -29,7 +29,7 @@ module.exports = {
       favicon: "./public/images/favicon-dark.ico",
     }),
     new CopyPlugin({
-      patterns: [{ from: "_redirects" }, { from: "public/fake_data.json" }],
+      patterns: [{ from: "_redirects" }, { from: "./public/fake_data.json" }],
     }),
   ],
 };
