@@ -94,7 +94,10 @@ export default class Menu extends React.Component {
             </div>
 
             <div className={theme === "light" ? iconRowLight : iconRowDark}>
-              <a href="https://github.com/adkr38" target="_blank">
+              <a
+                href="https://github.com/adkr38/software-insight"
+                target="_blank"
+              >
                 <bs.BsGithub
                   className={theme === "light" ? iconStyleLight : iconStyleDark}
                 ></bs.BsGithub>
